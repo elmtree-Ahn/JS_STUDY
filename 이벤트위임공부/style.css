@@ -1,9 +1,15 @@
+body {
+  background-color: #333;
+}
+
 .menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
   width: 70vw;
   height: 20vh;
+  padding: 10px 20px;
+  box-sizing: border-box;
   background-color: royalblue;
 }
 
@@ -17,4 +23,9 @@
 img {
   width: 5vh;
   height: 5vh;
+  /* pointer-events: none; */
+}
+
+span {
+  /* pointer-events: none; */
 }
